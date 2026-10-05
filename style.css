@@ -26,3 +26,13 @@ h1{
     background-color: antiquewhite;
     text-align: center;
 }
+
+body {
+  cursor: url("https://img.icons8.com/ios7/1200/cursor.jpg"), auto;
+}
+
+
+
+button {
+  cursor: url('icone-clique.png'), pointer;
+}

@@ -1,8 +1,9 @@
 body{
-    background-image: url("https://static.wikia.nocookie.net/liga-da-zueira-oficial/images/3/31/Chris.png/revision/latest/scale-to-width-down/400?cb=20230211171614&path-prefix=pt-br");
+    background-image: url("https://i.pinimg.com/originals/c8/7e/32/c87e32c29f5c18bf60c9537c0bca0823.gif");
 }
 
-.botao-voltar{
+
+button {
     position: absolute;
     top: 50%;
     left: 50%;
