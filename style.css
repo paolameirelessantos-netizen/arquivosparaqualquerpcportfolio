@@ -5,18 +5,28 @@ body{
 
 
 a p{
-   background-color: rgb(1, 63, 42);
+   background-color: rgb(194, 230, 218);
    width: 20%;
    padding: 15px 0;
    text-align: center;
    font-weight: bold;
-   text-decoration: none;
+   font-size: 22px;
    border-radius: 15px;
    transition: 1s all;
    cursor: pointer;
    margin: 15px auto;
-
+   text-decoration: none;
+   
 }
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 10%;
+} 
+
 a p:hover{
     background-color: aqua;
     transform: scale(1.2);
@@ -36,3 +46,15 @@ body {
 button {
   cursor: url('icone-clique.png'), pointer;
 }
+
+
+
+/* site que peguei a mini mãozinha né flaticon • Conserta Smart Curitiba
+	• Especialidade: Assistência técnica autorizada JBL e conserto de fones, smartphones, notebooks e smartwatches.
+	• Endereço: Rua 24 de Maio, 980 - Loja 09, Centro, Curitiba - PR.
+	• Contato: (41) 99999-1683 | Instagram Conserta Smart.
+
+A.S Repair• Especialidade: Manutenção de eletrônicos, troca de conectores e fones (como AirPods e JBL).
+• Endereço: Av. João Gualberto, 1430, Loja 3, Juvevê, Curitiba - PR.
+• Contato: WhatsApp (41) 99897-8376
+

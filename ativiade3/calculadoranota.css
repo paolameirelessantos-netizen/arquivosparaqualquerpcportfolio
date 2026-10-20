@@ -22,4 +22,25 @@ h1{
 }
 
 
+
+
+
+.botao-inicio { 
+    position: fixed; 
+    bottom: 20px; left: 20px;
+    padding: 12px 20px; 
+    background-color: rgb(128, 167, 24); color: bisque;
+    text-decoration: none; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    font-weight: bold;
+    transition: 0.3s; }
+
+
+
+
+
+.botao-inicio:hover { 
+    background-color: rgb(40, 100, 100); 
+    transform: scale(1.05); }
 /* sitezinho dos código prismic 40 usos de hoover criativo 

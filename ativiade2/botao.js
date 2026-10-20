@@ -1,5 +1,5 @@
 function ola() {
-    alert("Ain, cê clicou em mim >-<")
+    alert("Oxe, pessoa com síndrome de carinha q mora logo ali? Me passa um dolár")
 }
 
 function nao() {
