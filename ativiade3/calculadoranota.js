@@ -9,11 +9,11 @@ function calcular(){
     resultado = 180 - (nota1trim + nota2trim);
    
     if(resultado <= 0){
-        alert("Parabéns iniciante! Você está aprovado(a). Ter um por cento da minha sabedoria dá nisso");
+        alert("Parabéns iniciante! Você está aprovado(a), ter um por cento da minha sabedoria dá nisso");
     } 
     
     else{
-        alert( "Você ainda precisa tirar "  + resultado +  " no terceiro trimestre para ser aprovado. Vc insulta a minha inteligência");
+        alert( "Você ainda precisa tirar "  + resultado +  " no terceiro trimestre para ser aprovado, vc insulta a minha inteligência");
     }
 }
  
