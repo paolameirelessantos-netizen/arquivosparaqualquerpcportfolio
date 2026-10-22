@@ -1,8 +1,24 @@
 let numero
+let resultado = numero % 2;
 
 function parouimpar(){
     numero = Number(prompt("Informe um número:"))
+
+    let resultado = numero % 2;
+    if(numero ==6){
+
+        alert ("aura");
+    }
+
+    if(resultado ==0){
+        alert (" o número " + numero + " é par né" );
+    }
+
+    else(
+        alert (" o número "  + numero +  " é impar né cacete")
+    )
   
+
 
     
 }
