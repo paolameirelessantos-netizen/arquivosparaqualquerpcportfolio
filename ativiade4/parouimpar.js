@@ -24,4 +24,4 @@ function parouimpar(){
 }
 
 
-/* variavel global todo o site não tem limitações. é criada fora da função. variavel local é dentro do { e não da pra usa em outro s não da probleminha let é pa declarar a variavel. depois de criar, não usa dnv*/
+/* variavel global todo o site não tem limitações. ROLETA JEQUITI FAZé criada fora da função. variavel local é dentro do { e não da pra usa em outro s não da probleminha let é pa declarar a variavel. depois de criar, não usa dnv*/

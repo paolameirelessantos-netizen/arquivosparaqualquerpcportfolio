@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Aleatório</title>
+</head>
+<body>
+    <h1>Demonstrarei um pouco do meu poder.</h1>
+
+    <button onclick="aleatorio()">Roda a roleta da jequiti </button>
+    
+    <div id="resultado">
+        <p>Resultado vai spawnar aqui</p>
+    </div>
+
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tocar Som</title>
+</head>
+<body>
+
+    <!-- Elemento de áudio oculto ou visível -->
+    <audio id="meuSom" src="som.mp3"></audio>
+
+    <!-- Botão para acionar o som -->
+    <button id="botaoTocar">Tocar Som</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+    <script src="aleatorio.js"></script> sempre na ultima linha. pq ele lê todos os dados do código (HTML)
+
+    
+</body>
+</html>
+
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  const audio = new Audio('caminho/do/seu-audio.mp3');
+  
+  // Tentar tocar automaticamente (pode ser bloqueado pelo navegador se não houver interação)
+  audio.play().catch(error => {
+    console.log("Autoplay bloqueado pelo navegador. É necessária interação do usuário.", error);
+    
+    // Solução alternativa: tocar no primeiro clique em qualquer lugar da página
+    document.addEventListener('click', () => {
+      audio.play();
+    }, { once: true });
+  });
+});
+
+
+
+<audio id="meuAudio" src="caminho/do/seu-audio.mp3"></audio>
