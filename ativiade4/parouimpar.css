@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/53/61/1f/53611f86cd0fd7f5a478a10ae37e189f.gif");
+    background-size: 25%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 25px;
+    background-color: rgb(47, 179, 179);
+    color: bisque;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1{
+     background-color: rgb(60, 51, 39);
+    text-align: center;
+}
+
+.botao-inicio { 
+    position: fixed; 
+    bottom: 20px; left: 20px;
+    padding: 12px 20px; 
+    background-color: rgb(26, 32, 9); color: bisque;
+    text-decoration: none; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    font-weight: bold;
+    transition: 0.3s; }
+
+
+
+
+
+.botao-inicio:hover { 
+    background-color: rgb(40, 100, 100); 
+    transform: scale(1.05); }
+/* sitezinho dos código prismic 40 usos de hoover criativo 

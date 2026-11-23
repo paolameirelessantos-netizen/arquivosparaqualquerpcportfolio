@@ -5,7 +5,7 @@ body{
 
 
 a p{
-   background-color: rgb(1, 63, 42);
+   background-color: rgb(104, 182, 156);  
    width: 20%;
    padding: 15px 0;
    text-align: center;
@@ -17,23 +17,22 @@ a p{
    margin: 15px auto;
 
 }
+
+
+
 a p:hover{
-    background-color: aqua;
+    background-color: rgb(53, 58, 58);
     transform: scale(1.2);
     text-decoration: none;
 }
 
-h1{
-    background-color: antiquewhite;
-    text-align: center;
+h1 {
+     text-align: center;
+     color: antiquewhite;
 }
+
 
 body {
   cursor: url("https://img.icons8.com/ios7/1200/cursor.jpg"), auto;
 }
 
-
-
-button {
-  cursor: url('icone-clique.png'), pointer;
-}

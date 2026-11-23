@@ -5,7 +5,7 @@ function parouimpar(){
     numero = Number(prompt("Informe um número:"))
 
     let resultado = numero % 2;
-    if(numero ==6){
+    if(numero ==67){
 
         alert ("aura");
     }
